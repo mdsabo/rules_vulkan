@@ -21,8 +21,8 @@ cc_library(
         "vulkan_sdk_macos/lib/libvulkan.1*.dylib"
     ]),
     hdrs = glob([
-        "vulkan_sdk_macos/include/vulkan/**/*.h",
-        "vulkan_sdk_macos/include/vulkan/**/*.hpp",
+        "vulkan_sdk_macos/include/**/*.h",
+        "vulkan_sdk_macos/include/**/*.hpp",
     ]),
     includes = ["vulkan_sdk_macos/include"],
     visibility = ["//visibility:public"]
